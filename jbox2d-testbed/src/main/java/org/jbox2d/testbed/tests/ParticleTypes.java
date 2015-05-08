@@ -12,7 +12,7 @@ import org.jbox2d.particle.ParticleType;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class ParticleTypes extends TestbedTest {
+public /*auto*/ strictfp class ParticleTypes extends TestbedTest {
 
   Body circle;
   int flags = ParticleType.b2_tensileParticle;

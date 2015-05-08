@@ -43,7 +43,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class ContinuousTest extends TestbedTest {
+public /*auto*/ strictfp class ContinuousTest extends TestbedTest {
 
   Body m_body;
   Fixture currFixture;

@@ -30,7 +30,7 @@ import org.jbox2d.common.Transform;
 import org.jbox2d.dynamics.Fixture;
 import org.jbox2d.pooling.IWorldPool;
 
-public class CircleContact extends Contact {
+public /*auto*/ strictfp class CircleContact extends Contact {
 
   public CircleContact(IWorldPool argPool) {
     super(argPool);

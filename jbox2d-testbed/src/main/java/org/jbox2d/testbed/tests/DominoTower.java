@@ -38,7 +38,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class DominoTower extends TestbedTest {
+public /*auto*/ strictfp class DominoTower extends TestbedTest {
   final float dwidth = .20f;
   final float dheight = 1.0f;
   float ddensity;// = 10f;

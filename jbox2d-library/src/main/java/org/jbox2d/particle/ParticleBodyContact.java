@@ -3,7 +3,7 @@ package org.jbox2d.particle;
 import org.jbox2d.common.Vec2;
 import org.jbox2d.dynamics.Body;
 
-public class ParticleBodyContact {
+public /*auto*/ strictfp class ParticleBodyContact {
   /** Index of the particle making contact. */
   public int index;
   /** The body making contact. */

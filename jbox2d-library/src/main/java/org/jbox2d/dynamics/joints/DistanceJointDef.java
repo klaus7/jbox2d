@@ -58,7 +58,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @warning Do not use a zero or short length.
  */
-public class DistanceJointDef extends JointDef {
+public /*auto*/ strictfp class DistanceJointDef extends JointDef {
   /** The local anchor point relative to body1's origin. */
   public final Vec2 localAnchorA;
 

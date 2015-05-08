@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 import org.jbox2d.collision.AABB;
 
 
-public class JniTest {
+public /*auto*/ strictfp class JniTest {
 
   public static void main(String[] args) {
     BroadPhaseJNI tree = new BroadPhaseJNI();

@@ -37,7 +37,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class SphereStack extends TestbedTest {
+public /*auto*/ strictfp class SphereStack extends TestbedTest {
 
   int e_count = 10;
 

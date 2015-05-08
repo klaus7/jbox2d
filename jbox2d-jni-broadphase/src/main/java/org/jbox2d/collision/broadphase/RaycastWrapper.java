@@ -3,7 +3,7 @@ package org.jbox2d.collision.broadphase;
 import org.jbox2d.callbacks.TreeRayCastCallback;
 import org.jbox2d.collision.RayCastInput;
 
-public class RaycastWrapper {
+public /*auto*/ strictfp class RaycastWrapper {
 
   private TreeRayCastCallback callback;
 

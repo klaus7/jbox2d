@@ -25,7 +25,7 @@ package org.jbox2d.collision.broadphase;
 
 import org.jbox2d.collision.AABB;
 
-public class DynamicTreeNode {
+public /*auto*/ strictfp class DynamicTreeNode {
   /**
    * Enlarged AABB
    */

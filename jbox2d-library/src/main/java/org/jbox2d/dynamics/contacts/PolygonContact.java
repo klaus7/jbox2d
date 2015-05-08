@@ -30,7 +30,7 @@ import org.jbox2d.common.Transform;
 import org.jbox2d.dynamics.Fixture;
 import org.jbox2d.pooling.IWorldPool;
 
-public class PolygonContact extends Contact {
+public /*auto*/ strictfp class PolygonContact extends Contact {
 
   public PolygonContact(IWorldPool argPool) {
     super(argPool);

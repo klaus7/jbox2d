@@ -2,7 +2,7 @@ package org.jbox2d.particle;
 
 import org.jbox2d.common.Vec2;
 
-public class ParticleContact {
+public /*auto*/ strictfp class ParticleContact {
   /** Indices of the respective particles making contact. */
   public int indexA, indexB;
   /** The logical sum of the particle behaviors that have been set. */

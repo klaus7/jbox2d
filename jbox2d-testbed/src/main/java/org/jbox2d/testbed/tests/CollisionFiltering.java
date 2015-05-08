@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class CollisionFiltering extends TestbedTest {
+public /*auto*/ strictfp class CollisionFiltering extends TestbedTest {
 	
 	// This is a test of collision filtering.
 	// There is a triangle, a box, and a circle.

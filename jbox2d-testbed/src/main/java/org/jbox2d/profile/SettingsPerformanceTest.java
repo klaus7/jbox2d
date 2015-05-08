@@ -6,7 +6,7 @@ import org.jbox2d.dynamics.World;
 import org.jbox2d.profile.worlds.PerformanceTestWorld;
 import org.jbox2d.profile.worlds.PistonWorld;
 
-public class SettingsPerformanceTest extends BasicPerformanceTest {
+public /*auto*/ strictfp class SettingsPerformanceTest extends BasicPerformanceTest {
 
   private static int NUM_TESTS = 14;
   private PerformanceTestWorld world;

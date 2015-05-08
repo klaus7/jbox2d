@@ -73,7 +73,7 @@ import org.jbox2d.serialization.UnsupportedObjectException.Type;
  * @author Daniel
  * 
  */
-public class PbSerializer implements JbSerializer {
+public /*auto*/ strictfp class PbSerializer implements JbSerializer {
 
   private ObjectSigner signer = null;
   private UnsupportedListener listener = null;

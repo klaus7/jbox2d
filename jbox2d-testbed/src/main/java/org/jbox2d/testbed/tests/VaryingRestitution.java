@@ -38,7 +38,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class VaryingRestitution extends TestbedTest {
+public /*auto*/ strictfp class VaryingRestitution extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

@@ -55,7 +55,7 @@ import org.jbox2d.pooling.IWorldPool;
  * 
  * @author Daniel Murphy
  */
-public class DefaultWorldPool implements IWorldPool {
+public /*auto*/ strictfp class DefaultWorldPool implements IWorldPool {
 
   private final OrderedStack<Vec2> vecs;
   private final OrderedStack<Vec3> vec3s;

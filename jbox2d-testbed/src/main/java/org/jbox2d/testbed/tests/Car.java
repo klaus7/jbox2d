@@ -39,7 +39,7 @@ import org.jbox2d.dynamics.joints.WheelJointDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class Car extends TestbedTest {
+public /*auto*/ strictfp class Car extends TestbedTest {
   private static final long CAR_TAG = 100l;
   private static final long WHEEL1_TAG = 101l;
   private static final long WHEEL2_TAG = 102l;

@@ -32,7 +32,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @author daniel
  */
-public class ContactEdge {
+public /*auto*/ strictfp class ContactEdge {
 
   /**
    * provides quick access to the other body attached.

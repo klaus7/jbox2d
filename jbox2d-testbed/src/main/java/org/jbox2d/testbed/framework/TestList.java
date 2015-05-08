@@ -77,7 +77,7 @@ import org.jbox2d.testbed.tests.Web;
 /**
  * @author Daniel Murphy
  */
-public class TestList {
+public /*auto*/ strictfp class TestList {
 
   public static void populateModel(TestbedModel model) {
     // particles

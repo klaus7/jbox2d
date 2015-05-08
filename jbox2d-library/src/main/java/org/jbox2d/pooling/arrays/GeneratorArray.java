@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.jbox2d.particle.VoronoiDiagram;
 
-public class GeneratorArray {
+public /*auto*/ strictfp class GeneratorArray {
 
   private final HashMap<Integer, VoronoiDiagram.Generator[]> map =
       new HashMap<Integer, VoronoiDiagram.Generator[]>();

@@ -46,7 +46,7 @@ import org.slf4j.LoggerFactory;
  * @author Daniel Murphy
  */
 @SuppressWarnings("serial")
-public class TestPanelJ2D extends JPanel implements TestbedPanel {
+public /*auto*/ strictfp class TestPanelJ2D extends JPanel implements TestbedPanel {
   private static final Logger log = LoggerFactory.getLogger(TestPanelJ2D.class);
 
   public static final int SCREEN_DRAG_BUTTON = 3;

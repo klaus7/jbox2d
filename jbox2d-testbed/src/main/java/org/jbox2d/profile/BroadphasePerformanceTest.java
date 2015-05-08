@@ -8,7 +8,7 @@ import org.jbox2d.pooling.normal.DefaultWorldPool;
 import org.jbox2d.profile.worlds.PerformanceTestWorld;
 import org.jbox2d.profile.worlds.PistonWorld;
 
-public class BroadphasePerformanceTest extends BasicPerformanceTest {
+public /*auto*/ strictfp class BroadphasePerformanceTest extends BasicPerformanceTest {
 
   private static int NUM_TESTS = 2;
   private PerformanceTestWorld world;

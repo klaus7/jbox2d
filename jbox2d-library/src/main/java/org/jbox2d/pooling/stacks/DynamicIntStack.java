@@ -23,7 +23,7 @@
  ******************************************************************************/
 package org.jbox2d.pooling.stacks;
 
-public class DynamicIntStack {
+public /*auto*/ strictfp class DynamicIntStack {
 
   private int[] stack;
   private int size;

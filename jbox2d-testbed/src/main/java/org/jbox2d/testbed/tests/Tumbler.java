@@ -11,7 +11,7 @@ import org.jbox2d.dynamics.joints.RevoluteJointDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class Tumbler extends TestbedTest {
+public /*auto*/ strictfp class Tumbler extends TestbedTest {
   private static final int MAX_NUM = 800;
   RevoluteJoint m_joint;
   int m_count;

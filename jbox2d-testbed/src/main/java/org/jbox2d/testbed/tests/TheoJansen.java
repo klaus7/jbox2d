@@ -45,7 +45,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class TheoJansen extends TestbedTest {
+public /*auto*/ strictfp class TheoJansen extends TestbedTest {
   private static final long CHASSIS_TAG = 1;
   private static final long WHEEL_TAG = 2;
   private static final long MOTOR_TAG = 8;

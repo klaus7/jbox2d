@@ -1,7 +1,7 @@
 package org.jbox2d.particle;
 
 
-public class StackQueue<T> {
+public /*auto*/ strictfp class StackQueue<T> {
 
   private T[] m_buffer;
   private int m_front;

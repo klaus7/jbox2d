@@ -33,7 +33,7 @@ import org.jbox2d.dynamics.BodyType;
 import org.jbox2d.dynamics.joints.RevoluteJointDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class FreePendulumTest extends TestbedTest {
+public /*auto*/ strictfp class FreePendulumTest extends TestbedTest {
   private final boolean switchBodiesInJoint;
 
   public FreePendulumTest(boolean switchBodiesInJoint) {

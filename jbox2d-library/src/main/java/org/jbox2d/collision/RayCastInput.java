@@ -29,7 +29,7 @@ import org.jbox2d.common.Vec2;
 /**
  * Ray-cast input data. The ray extends from p1 to p1 + maxFraction * (p2 - p1).
  */
-public class RayCastInput{
+public /*auto*/ strictfp class RayCastInput{
 	public final Vec2 p1, p2;
 	public float maxFraction;
 

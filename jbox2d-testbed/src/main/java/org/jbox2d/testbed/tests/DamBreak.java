@@ -8,7 +8,7 @@ import org.jbox2d.dynamics.BodyDef;
 import org.jbox2d.particle.ParticleGroupDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class DamBreak extends TestbedTest {
+public /*auto*/ strictfp class DamBreak extends TestbedTest {
 
   @Override
   public void initTest(boolean deserialized) {

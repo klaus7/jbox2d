@@ -29,7 +29,7 @@ package org.jbox2d.serialization;
  * 
  * @author Daniel Murphy
  */
-public class UnsupportedObjectException extends RuntimeException {
+public /*auto*/ strictfp class UnsupportedObjectException extends RuntimeException {
 
   private static final long serialVersionUID = 5915827472093183385L;
 

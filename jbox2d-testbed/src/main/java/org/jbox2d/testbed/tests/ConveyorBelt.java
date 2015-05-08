@@ -35,7 +35,7 @@ import org.jbox2d.dynamics.FixtureDef;
 import org.jbox2d.dynamics.contacts.Contact;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class ConveyorBelt extends TestbedTest {
+public /*auto*/ strictfp class ConveyorBelt extends TestbedTest {
   private static long platformTag = 98752L;
   private Fixture m_platform;
   

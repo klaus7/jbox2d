@@ -62,7 +62,7 @@ import org.jbox2d.profile.BasicPerformanceTest;
 /**
  * @author Daniel Murphy
  */
-public class MathPerf extends BasicPerformanceTest {
+public /*auto*/ strictfp class MathPerf extends BasicPerformanceTest {
 
   public static int INNER_ITERS = 5000;
   public static int OUTER_ITERS = 5000;

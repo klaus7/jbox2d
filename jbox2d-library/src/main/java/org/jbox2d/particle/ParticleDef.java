@@ -2,7 +2,7 @@ package org.jbox2d.particle;
 
 import org.jbox2d.common.Vec2;
 
-public class ParticleDef {
+public /*auto*/ strictfp class ParticleDef {
   /**
    * Specifies the type of particle. A particle may be more than one type. Multiple types are
    * chained by logical sums, for example: pd.flags = ParticleType.b2_elasticParticle |

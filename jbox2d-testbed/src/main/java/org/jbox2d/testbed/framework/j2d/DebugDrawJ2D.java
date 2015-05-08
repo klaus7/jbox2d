@@ -50,7 +50,7 @@ import org.jbox2d.testbed.pooling.ColorPool;
  * 
  * @author Daniel Murphy
  */
-public class DebugDrawJ2D extends DebugDraw {
+public /*auto*/ strictfp class DebugDrawJ2D extends DebugDraw {
   public static int circlePoints = 13;
   public static final float edgeWidth = 0.02f;
 

@@ -46,7 +46,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Gears extends TestbedTest {
+public /*auto*/ strictfp class Gears extends TestbedTest {
 
   RevoluteJoint m_joint1;
   RevoluteJoint m_joint2;

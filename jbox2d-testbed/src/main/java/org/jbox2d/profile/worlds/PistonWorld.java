@@ -14,7 +14,7 @@ import org.jbox2d.dynamics.joints.PrismaticJointDef;
 import org.jbox2d.dynamics.joints.RevoluteJoint;
 import org.jbox2d.dynamics.joints.RevoluteJointDef;
 
-public class PistonWorld implements PerformanceTestWorld {
+public /*auto*/ strictfp class PistonWorld implements PerformanceTestWorld {
   public float timeStep = 1f / 60;
   public int velIters = 8;
   public int posIters = 3;

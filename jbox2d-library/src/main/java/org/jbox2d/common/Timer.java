@@ -28,7 +28,7 @@ package org.jbox2d.common;
  * 
  * @author Daniel
  */
-public class Timer {
+public /*auto*/ strictfp class Timer {
 
   private long resetNanos;
 

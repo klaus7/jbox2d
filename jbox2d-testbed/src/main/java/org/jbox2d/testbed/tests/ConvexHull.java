@@ -31,7 +31,7 @@ import org.jbox2d.common.Vec2;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class ConvexHull extends TestbedTest {
+public /*auto*/ strictfp class ConvexHull extends TestbedTest {
 
   private final int e_count = Settings.maxPolygonVertices;
 

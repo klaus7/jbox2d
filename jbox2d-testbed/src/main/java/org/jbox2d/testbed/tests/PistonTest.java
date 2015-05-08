@@ -36,7 +36,7 @@ import org.jbox2d.dynamics.joints.PrismaticJointDef;
 import org.jbox2d.dynamics.joints.RevoluteJointDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class PistonTest extends TestbedTest {
+public /*auto*/ strictfp class PistonTest extends TestbedTest {
   
   private boolean bullet = false;
 

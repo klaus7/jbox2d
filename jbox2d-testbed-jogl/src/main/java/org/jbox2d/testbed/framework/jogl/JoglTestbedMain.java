@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedErrorHandler;
 import org.jbox2d.testbed.framework.TestbedModel;
 import org.jbox2d.testbed.framework.j2d.TestbedSidePanel;
 
-public class JoglTestbedMain {
+public /*auto*/ strictfp class JoglTestbedMain {
 
   public static void main(String[] args) {
 //    try {

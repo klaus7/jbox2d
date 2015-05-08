@@ -32,7 +32,7 @@ import org.jbox2d.dynamics.BodyType;
 import org.jbox2d.dynamics.FixtureDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class VaryingFrictionTest extends TestbedTest {
+public /*auto*/ strictfp class VaryingFrictionTest extends TestbedTest {
 
   @Override
   public String getTestName() {

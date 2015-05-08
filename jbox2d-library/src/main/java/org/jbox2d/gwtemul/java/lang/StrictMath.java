@@ -26,7 +26,7 @@ package java.lang;
 /**
  * GWT doesn't support strict math, so we "emulate" it with non-strict math.
  */
-public class StrictMath {
+public /*auto*/ strictfp class StrictMath {
 
   public static double atan2(double y, double x) {
     return Math.atan2(y,x);

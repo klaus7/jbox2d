@@ -51,7 +51,7 @@ import org.jbox2d.common.Vec2;
 // Updated to rev 100
 
 /** This holds the mass data computed for a shape. */
-public class MassData {
+public /*auto*/ strictfp class MassData {
 	/** The mass of the shape, usually in kilograms. */
 	public float mass;
 	/** The position of the shape's centroid relative to the shape's origin. */

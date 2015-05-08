@@ -30,7 +30,7 @@ import org.jbox2d.collision.AABB;
  * 
  * @author Daniel
  */
-public class FixtureProxy {
+public /*auto*/ strictfp class FixtureProxy {
   final AABB aabb = new AABB();
   Fixture fixture;
   int childIndex;

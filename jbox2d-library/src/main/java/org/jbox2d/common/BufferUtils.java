@@ -2,7 +2,7 @@ package org.jbox2d.common;
 
 import java.lang.reflect.Array;
 
-public class BufferUtils {
+public /*auto*/ strictfp class BufferUtils {
   /** Reallocate a buffer. */
   public static <T> T[] reallocateBuffer(Class<T> klass, T[] oldBuffer, int oldCapacity,
       int newCapacity) {

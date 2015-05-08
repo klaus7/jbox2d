@@ -50,7 +50,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class PolyShapes extends TestbedTest {
+public /*auto*/ strictfp class PolyShapes extends TestbedTest {
   int k_maxBodies = 256;
   int m_bodyIndex;
   Body m_bodies[] = new Body[k_maxBodies];

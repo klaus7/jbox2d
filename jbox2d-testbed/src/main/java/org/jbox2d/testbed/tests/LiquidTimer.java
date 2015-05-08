@@ -10,7 +10,7 @@ import org.jbox2d.particle.ParticleGroupDef;
 import org.jbox2d.particle.ParticleType;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class LiquidTimer extends TestbedTest {
+public /*auto*/ strictfp class LiquidTimer extends TestbedTest {
 
   @Override
   public void initTest(boolean deserialized) {

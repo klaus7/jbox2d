@@ -57,7 +57,7 @@ import org.slf4j.LoggerFactory;
  * 
  * @author Daniel Murphy
  */
-public class TestbedMain {
+public /*auto*/ strictfp class TestbedMain {
   private static final Logger log = LoggerFactory.getLogger(TestbedMain.class);
 
   private final Object lock = new Object();

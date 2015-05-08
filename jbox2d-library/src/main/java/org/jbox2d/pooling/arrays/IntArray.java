@@ -32,7 +32,7 @@ import java.util.HashMap;
  * Not thread safe int[] pooling
  * @author Daniel Murphy
  */
-public class IntArray {
+public /*auto*/ strictfp class IntArray {
 	
 	private final HashMap<Integer, int[]> map = new HashMap<Integer, int[]>();
 	

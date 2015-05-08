@@ -32,7 +32,7 @@ import org.jbox2d.common.Transform;
 import org.jbox2d.dynamics.Fixture;
 import org.jbox2d.pooling.IWorldPool;
 
-public class ChainAndPolygonContact extends Contact {
+public /*auto*/ strictfp class ChainAndPolygonContact extends Contact {
 
   public ChainAndPolygonContact(IWorldPool argPool) {
     super(argPool);

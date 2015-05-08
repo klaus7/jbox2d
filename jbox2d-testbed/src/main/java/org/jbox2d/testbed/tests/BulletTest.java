@@ -12,7 +12,7 @@ import org.jbox2d.dynamics.BodyType;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class BulletTest extends TestbedTest {
+public /*auto*/ strictfp class BulletTest extends TestbedTest {
 
   Body m_body;
   Body m_bullet;

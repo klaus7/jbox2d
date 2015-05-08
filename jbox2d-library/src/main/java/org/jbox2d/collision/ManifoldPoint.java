@@ -61,7 +61,7 @@ import org.jbox2d.common.Vec2;
  * Note: the impulses are used for internal caching and may not
  * provide reliable contact forces, especially for high speed collisions.
  */
-public class ManifoldPoint {
+public /*auto*/ strictfp class ManifoldPoint {
 	/** usage depends on manifold type */
 	public final Vec2 localPoint;
 	/** the non-penetration impulse */

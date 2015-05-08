@@ -27,7 +27,7 @@ package org.jbox2d.dynamics;
 /**
  * This is an internal structure.
  */
-public class TimeStep {
+public /*auto*/ strictfp class TimeStep {
 	
 	/** time step */
 	public float dt;

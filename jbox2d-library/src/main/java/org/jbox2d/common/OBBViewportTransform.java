@@ -28,7 +28,7 @@ package org.jbox2d.common;
  * 
  * @author Daniel Murphy
  */
-public class OBBViewportTransform implements IViewportTransform {
+public /*auto*/ strictfp class OBBViewportTransform implements IViewportTransform {
 
   public static class OBB {
     public final Mat22 R = new Mat22();

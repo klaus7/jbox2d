@@ -46,7 +46,7 @@ import org.jbox2d.profile.BasicPerformanceTest;
 /**
  * @author Daniel Murphy
  */
-public class StackTest extends BasicPerformanceTest {
+public /*auto*/ strictfp class StackTest extends BasicPerformanceTest {
 
   public static final int INNER_ITERS = 50000;
   public static final int OUTER_ITERS = 200;

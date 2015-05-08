@@ -57,7 +57,7 @@ import org.jbox2d.dynamics.FixtureDef;
 import org.jbox2d.dynamics.joints.ConstantVolumeJointDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class BlobTest4 extends TestbedTest {
+public /*auto*/ strictfp class BlobTest4 extends TestbedTest {
 
   @Override
   public float getDefaultCameraScale() {

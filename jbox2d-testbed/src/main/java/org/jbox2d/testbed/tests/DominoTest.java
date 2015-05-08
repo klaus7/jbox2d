@@ -31,7 +31,7 @@ import org.jbox2d.dynamics.BodyType;
 import org.jbox2d.dynamics.FixtureDef;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class DominoTest extends TestbedTest {
+public /*auto*/ strictfp class DominoTest extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

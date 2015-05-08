@@ -36,7 +36,7 @@ import org.jbox2d.common.IViewportTransform;
  * 
  * @author Daniel
  */
-public class TestbedModel {
+public /*auto*/ strictfp class TestbedModel {
   private final DefaultComboBoxModel tests = new DefaultComboBoxModel();
   private final TestbedSettings settings = new TestbedSettings();
   private DebugDraw draw;
@@ -195,7 +195,7 @@ public class TestbedModel {
     return settings;
   }
 
-  public class ListItem {
+  public /*auto*/ strictfp class ListItem {
     public String category;
     public TestbedTest test;
 

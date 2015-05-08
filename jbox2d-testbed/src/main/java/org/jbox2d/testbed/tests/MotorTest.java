@@ -14,7 +14,7 @@ import org.jbox2d.dynamics.joints.MotorJointDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class MotorTest extends TestbedTest {
+public /*auto*/ strictfp class MotorTest extends TestbedTest {
   MotorJoint m_joint;
   float m_time;
   boolean m_go;

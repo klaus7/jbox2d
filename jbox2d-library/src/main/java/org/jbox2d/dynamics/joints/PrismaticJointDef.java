@@ -37,7 +37,7 @@ import org.jbox2d.dynamics.Body;
  * @author Daniel
  * 
  */
-public class PrismaticJointDef extends JointDef {
+public /*auto*/ strictfp class PrismaticJointDef extends JointDef {
 
 
   /**

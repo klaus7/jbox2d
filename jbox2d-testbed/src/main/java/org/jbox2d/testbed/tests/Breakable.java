@@ -42,7 +42,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Breakable extends TestbedTest {
+public /*auto*/ strictfp class Breakable extends TestbedTest {
 
   Body m_body1;
   Vec2 m_velocity = new Vec2();

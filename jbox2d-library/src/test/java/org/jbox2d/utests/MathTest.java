@@ -39,7 +39,7 @@ import junit.framework.TestCase;
 /**
  * @author Daniel Murphy
  */
-public class MathTest extends TestCase {
+public /*auto*/ strictfp class MathTest extends TestCase {
 
   private final static int MAX = (int) (Float.MAX_VALUE / 1000);
   private final static int RAND_ITERS = 100;

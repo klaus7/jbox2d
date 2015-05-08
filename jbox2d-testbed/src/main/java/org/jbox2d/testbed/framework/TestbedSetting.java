@@ -27,7 +27,7 @@ package org.jbox2d.testbed.framework;
  * Defines a setting used in the testbed.
  * @author Daniel Murphy
  */
-public class TestbedSetting {
+public /*auto*/ strictfp class TestbedSetting {
   
   /**
    * Whether the setting effects the engine's behavior or

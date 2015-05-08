@@ -43,7 +43,7 @@ import org.jbox2d.testbed.framework.TestbedModel;
  * 
  * @author Daniel Murphy
  */
-public class TestbedMain {
+public /*auto*/ strictfp class TestbedMain {
   // private static final Logger log = LoggerFactory.getLogger(TestbedMain.class);
 
   public static void main(String[] args) {

@@ -61,7 +61,7 @@ import org.jbox2d.profile.BasicPerformanceTest;
 /**
  * @author Daniel Murphy
  */
-public class PoolingPerf extends BasicPerformanceTest {
+public /*auto*/ strictfp class PoolingPerf extends BasicPerformanceTest {
   public static final int INNER_ITERS = 50000;
   public static final int OUTER_ITERS = 1000;
 

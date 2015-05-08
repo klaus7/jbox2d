@@ -42,7 +42,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class SensorTest extends TestbedTest {
+public /*auto*/ strictfp class SensorTest extends TestbedTest {
 
   class BoolWrapper {
     boolean tf;

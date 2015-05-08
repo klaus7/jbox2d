@@ -33,7 +33,7 @@ import org.jbox2d.dynamics.FixtureDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class ConfinedTest extends TestbedTest {
+public /*auto*/ strictfp class ConfinedTest extends TestbedTest {
 
 	int e_columnCount = 0;
 	int e_rowCount = 0;

@@ -38,7 +38,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @author Daniel Murphy
  */
-public class WheelJointDef extends JointDef {
+public /*auto*/ strictfp class WheelJointDef extends JointDef {
 
   /**
    * The local anchor point relative to body1's origin.

@@ -42,7 +42,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class BodyTypes extends TestbedTest {
+public /*auto*/ strictfp class BodyTypes extends TestbedTest {
   private final static long ATTACHMENT_TAG = 19;
   private final static long PLATFORM_TAG = 20;
 

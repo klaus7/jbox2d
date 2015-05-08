@@ -31,7 +31,7 @@ import org.jbox2d.collision.shapes.Shape;
  * 
  * @author daniel
  */
-public class FixtureDef {
+public /*auto*/ strictfp class FixtureDef {
   /**
    * The shape, this must be set. The shape will be cloned, so you can create the shape on the
    * stack.

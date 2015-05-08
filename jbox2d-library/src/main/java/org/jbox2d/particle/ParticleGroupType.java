@@ -1,6 +1,6 @@
 package org.jbox2d.particle;
 
-public class ParticleGroupType {
+public /*auto*/ strictfp class ParticleGroupType {
   /** resists penetration */
   public static final int b2_solidParticleGroup = 1 << 0;
   /** keeps its shape */

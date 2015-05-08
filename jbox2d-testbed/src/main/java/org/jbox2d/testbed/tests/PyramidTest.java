@@ -37,7 +37,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class PyramidTest extends TestbedTest {
+public /*auto*/ strictfp class PyramidTest extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

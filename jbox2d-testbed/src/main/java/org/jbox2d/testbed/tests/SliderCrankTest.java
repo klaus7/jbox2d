@@ -45,7 +45,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class SliderCrankTest extends TestbedTest {
+public /*auto*/ strictfp class SliderCrankTest extends TestbedTest {
 
   private RevoluteJoint m_joint1;
   private PrismaticJoint m_joint2;

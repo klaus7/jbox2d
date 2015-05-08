@@ -66,7 +66,7 @@ import org.jbox2d.serialization.UnsupportedListener;
 import org.jbox2d.serialization.UnsupportedObjectException;
 import org.jbox2d.serialization.UnsupportedObjectException.Type;
 
-public class PbDeserializer implements JbDeserializer {
+public /*auto*/ strictfp class PbDeserializer implements JbDeserializer {
 
   private ObjectListener listener = null;
   private UnsupportedListener ulistener = null;

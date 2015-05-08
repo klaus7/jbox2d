@@ -31,7 +31,7 @@ import org.jbox2d.dynamics.Body;
  * Definition for a {@link ConstantVolumeJoint}, which connects a group a bodies together so they
  * maintain a constant volume within them.
  */
-public class ConstantVolumeJointDef extends JointDef {
+public /*auto*/ strictfp class ConstantVolumeJointDef extends JointDef {
   public float frequencyHz;
   public float dampingRatio;
 

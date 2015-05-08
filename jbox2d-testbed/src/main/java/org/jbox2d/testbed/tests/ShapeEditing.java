@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class ShapeEditing extends TestbedTest {
+public /*auto*/ strictfp class ShapeEditing extends TestbedTest {
 
   Body m_body;
   Fixture m_fixture1;

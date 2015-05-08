@@ -39,7 +39,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Chain extends TestbedTest {
+public /*auto*/ strictfp class Chain extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

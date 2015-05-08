@@ -13,7 +13,7 @@ import org.jbox2d.dynamics.joints.RopeJointDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class RopeTest extends TestbedTest {
+public /*auto*/ strictfp class RopeTest extends TestbedTest {
 
   RopeJointDef m_ropeDef;
   Joint m_rope;

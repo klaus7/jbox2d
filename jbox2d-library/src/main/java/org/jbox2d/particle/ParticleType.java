@@ -5,7 +5,7 @@ package org.jbox2d.particle;
  * 
  * @author dmurph
  */
-public class ParticleType {
+public /*auto*/ strictfp class ParticleType {
   public static final int b2_waterParticle = 0;
   /** removed after next step */
   public static final int b2_zombieParticle = 1 << 1;

@@ -18,7 +18,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 
 import com.google.common.collect.Lists;
 
-public class AWTPanelHelper {
+public /*auto*/ strictfp class AWTPanelHelper {
   static boolean screenDragButtonDown = false;
   static boolean mouseJointButtonDown = false;
 

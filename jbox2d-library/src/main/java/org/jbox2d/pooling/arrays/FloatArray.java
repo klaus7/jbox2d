@@ -29,7 +29,7 @@ import java.util.HashMap;
  * Not thread safe float[] pooling.
  * @author Daniel
  */
-public class FloatArray {
+public /*auto*/ strictfp class FloatArray {
 	
 	private final HashMap<Integer, float[]> map = new HashMap<Integer, float[]>();
 	

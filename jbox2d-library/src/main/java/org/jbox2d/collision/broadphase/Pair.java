@@ -28,7 +28,7 @@ package org.jbox2d.collision.broadphase;
  * Java note: at the "creation" of each node, a random key is given to that node, and that's what we
  * sort from.
  */
-public class Pair implements Comparable<Pair> {
+public /*auto*/ strictfp class Pair implements Comparable<Pair> {
   public int proxyIdA;
   public int proxyIdB;
 

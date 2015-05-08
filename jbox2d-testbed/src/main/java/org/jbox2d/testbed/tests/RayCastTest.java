@@ -37,7 +37,7 @@ import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 import org.jbox2d.callbacks.RayCastCallback;
 
-public class RayCastTest extends TestbedTest {
+public /*auto*/ strictfp class RayCastTest extends TestbedTest {
 
   public static final int e_maxBodies = 256;
 

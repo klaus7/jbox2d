@@ -10,7 +10,7 @@ import org.jbox2d.collision.broadphase.BroadPhaseJNI;
 import org.junit.Test;
 
 
-public class JniTest {
+public /*auto*/ strictfp class JniTest {
 
   @Test
   public void testClass() {

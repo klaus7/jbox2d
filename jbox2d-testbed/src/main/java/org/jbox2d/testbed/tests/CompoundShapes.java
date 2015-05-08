@@ -41,7 +41,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class CompoundShapes extends TestbedTest {
+public /*auto*/ strictfp class CompoundShapes extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

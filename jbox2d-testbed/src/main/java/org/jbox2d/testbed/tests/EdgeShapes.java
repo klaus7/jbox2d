@@ -44,7 +44,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class EdgeShapes extends TestbedTest {
+public /*auto*/ strictfp class EdgeShapes extends TestbedTest {
 
   int e_maxBodies = 256;
   int m_bodyIndex;

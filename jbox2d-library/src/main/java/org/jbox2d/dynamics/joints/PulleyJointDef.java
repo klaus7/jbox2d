@@ -36,7 +36,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @author Daniel Murphy
  */
-public class PulleyJointDef extends JointDef {
+public /*auto*/ strictfp class PulleyJointDef extends JointDef {
 
   /**
    * The first ground anchor in world coordinates. This point never moves.

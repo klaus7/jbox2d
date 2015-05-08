@@ -42,7 +42,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class CharacterCollision extends TestbedTest {
+public /*auto*/ strictfp class CharacterCollision extends TestbedTest {
   private static final long CHARACTER_TAG = 1231l;
 
   private Body m_character;

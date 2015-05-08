@@ -34,7 +34,7 @@ import org.jbox2d.dynamics.Fixture;
  * Contact point for {@link TestbedTest}.
  * @author Daniel Murphy
  */
-public class ContactPoint {
+public /*auto*/ strictfp class ContactPoint {
 	public Fixture fixtureA;
 	public Fixture fixtureB;
 	public final Vec2 normal = new Vec2();

@@ -60,7 +60,7 @@ import org.jbox2d.dynamics.Body;
  * <li>if you add/remove shapes from a body and recompute the mass, the joints will be broken.</li>
  * </ul>
  */
-public class RevoluteJointDef extends JointDef {
+public /*auto*/ strictfp class RevoluteJointDef extends JointDef {
 
   /**
    * The local anchor point relative to body1's origin.

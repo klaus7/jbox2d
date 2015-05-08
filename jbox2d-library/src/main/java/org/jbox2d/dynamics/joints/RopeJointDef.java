@@ -8,7 +8,7 @@ import org.jbox2d.common.Vec2;
  * 
  * @author Daniel Murphy
  */
-public class RopeJointDef extends JointDef {
+public /*auto*/ strictfp class RopeJointDef extends JointDef {
 
   /**
    * The local anchor point relative to bodyA's origin.

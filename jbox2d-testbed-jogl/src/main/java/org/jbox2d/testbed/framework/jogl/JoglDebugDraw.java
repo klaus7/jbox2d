@@ -38,7 +38,7 @@ import org.jbox2d.particle.ParticleColor;
 
 import com.jogamp.opengl.util.awt.TextRenderer;
 
-public class JoglDebugDraw extends DebugDraw {
+public /*auto*/ strictfp class JoglDebugDraw extends DebugDraw {
 
   private final JoglPanel panel;
   private final TextRenderer text;

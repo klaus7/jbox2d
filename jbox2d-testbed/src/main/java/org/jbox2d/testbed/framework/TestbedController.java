@@ -46,7 +46,7 @@ import com.google.common.collect.Lists;
  * 
  * @author Daniel Murphy
  */
-public class TestbedController implements Runnable {
+public /*auto*/ strictfp class TestbedController implements Runnable {
   private static final Logger log = LoggerFactory.getLogger(TestbedController.class);
 
   public static enum UpdateBehavior {

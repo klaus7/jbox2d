@@ -42,7 +42,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Pulleys extends TestbedTest {
+public /*auto*/ strictfp class Pulleys extends TestbedTest {
   private static final long JOINT_TAG = 2;
 
   PulleyJoint m_joint1;  

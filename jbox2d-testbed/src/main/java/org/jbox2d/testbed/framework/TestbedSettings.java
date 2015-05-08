@@ -40,7 +40,7 @@ import com.google.common.collect.Maps;
  * 
  * @author Daniel Murphy
  */
-public class TestbedSettings {
+public /*auto*/ strictfp class TestbedSettings {
   public static final String Hz = "Hz";
   public static final String PositionIterations = "Pos Iters";
   public static final String VelocityIterations = "Vel Iters";

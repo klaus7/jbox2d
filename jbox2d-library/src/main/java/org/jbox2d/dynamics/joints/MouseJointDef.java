@@ -30,7 +30,7 @@ import org.jbox2d.common.Vec2;
  * 
  * @author Daniel
  */
-public class MouseJointDef extends JointDef {
+public /*auto*/ strictfp class MouseJointDef extends JointDef {
   /**
    * The initial world target point. This is assumed to coincide with the body anchor initially.
    */

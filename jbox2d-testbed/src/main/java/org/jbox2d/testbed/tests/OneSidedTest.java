@@ -36,7 +36,7 @@ import org.jbox2d.dynamics.Fixture;
 import org.jbox2d.dynamics.contacts.Contact;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class OneSidedTest extends TestbedTest {
+public /*auto*/ strictfp class OneSidedTest extends TestbedTest {
   private static final long PLATFORM_TAG = 10;
   private static final long CHARACTER_TAG = 11;
 

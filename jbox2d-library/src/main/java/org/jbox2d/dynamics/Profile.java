@@ -27,7 +27,7 @@ import java.util.List;
 
 import org.jbox2d.common.MathUtils;
 
-public class Profile {
+public /*auto*/ strictfp class Profile {
   private static final int LONG_AVG_NUMS = 20;
   private static final float LONG_FRACTION = 1f / LONG_AVG_NUMS;
   private static final int SHORT_AVG_NUMS = 5;

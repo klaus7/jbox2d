@@ -48,7 +48,7 @@ import org.jbox2d.common.Vec2;
  * critical for continuous physics. All contact scenarios must be expressed in one of these types.
  * This structure is stored across time steps, so we keep it small.
  */
-public class Manifold {
+public /*auto*/ strictfp class Manifold {
 
   public static enum ManifoldType {
     CIRCLES, FACE_A, FACE_B

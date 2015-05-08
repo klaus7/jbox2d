@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jbox2d</groupId>
 	<artifactId>jbox2d</artifactId>
-	<version>2.3.1-SNAPSHOT</version>
+	<version>2.3.1.1</version>
 	<packaging>pom</packaging>
 	<name>jbox2d</name>
 	<description>JBox2D is a 2d Java physics engine, a port of the C++ Box2d engine.  This is the parent pom for the library and testbed modules.</description>
@@ -113,7 +113,7 @@
 					<configuration>
 						<source>1.6</source>
 						<target>1.6</target>
-						<optimise>true</optimise>
+						<!--<optimise>true</optimise>-->
 					</configuration>
 				</plugin>
 			</plugins>

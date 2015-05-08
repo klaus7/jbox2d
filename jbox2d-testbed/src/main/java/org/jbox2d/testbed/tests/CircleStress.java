@@ -43,7 +43,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class CircleStress extends TestbedTest {
+public /*auto*/ strictfp class CircleStress extends TestbedTest {
 
   private static final long JOINT_TAG = 1;
 

@@ -31,7 +31,7 @@ import org.jbox2d.common.Vec2;
  * 
  * @author daniel
  */
-public class BodyDef {
+public /*auto*/ strictfp class BodyDef {
 
   /**
    * The body type: static, kinematic, or dynamic. Note: if a dynamic body would have zero mass, the

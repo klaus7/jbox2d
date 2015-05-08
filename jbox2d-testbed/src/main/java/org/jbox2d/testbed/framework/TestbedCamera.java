@@ -30,7 +30,7 @@ import org.jbox2d.common.Vec2;
 
 import com.google.common.base.Preconditions;
 
-public class TestbedCamera {
+public /*auto*/ strictfp class TestbedCamera {
 
   public static enum ZoomType {
     ZOOM_IN, ZOOM_OUT

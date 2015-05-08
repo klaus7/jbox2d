@@ -44,7 +44,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class RevoluteTest extends TestbedTest {
+public /*auto*/ strictfp class RevoluteTest extends TestbedTest {
   private static final long JOINT_TAG = 1;
   private RevoluteJoint m_joint;
   private boolean isLeft = false;

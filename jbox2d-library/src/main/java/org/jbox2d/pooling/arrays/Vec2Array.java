@@ -32,7 +32,7 @@ import org.jbox2d.common.Vec2;
  * @author dmurph
  *
  */
-public class Vec2Array {
+public /*auto*/ strictfp class Vec2Array {
 
 	private final HashMap<Integer, Vec2[]> map = new HashMap<Integer, Vec2[]>();
 	

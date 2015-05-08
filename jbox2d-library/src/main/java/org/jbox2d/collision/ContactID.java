@@ -48,7 +48,7 @@ package org.jbox2d.collision;
 /**
  * Contact ids to facilitate warm starting. Note: the ContactFeatures class is just embedded in here
  */
-public class ContactID implements Comparable<ContactID> {
+public /*auto*/ strictfp class ContactID implements Comparable<ContactID> {
 
   public static enum Type {
     VERTEX, FACE

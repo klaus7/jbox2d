@@ -7,7 +7,7 @@ import org.jbox2d.common.Color3f;
  * 
  * @author dmurph
  */
-public class ParticleColor {
+public /*auto*/ strictfp class ParticleColor {
   public byte r, g, b, a;
 
   public ParticleColor() {

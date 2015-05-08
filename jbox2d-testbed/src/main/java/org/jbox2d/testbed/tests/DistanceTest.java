@@ -35,7 +35,7 @@ import org.jbox2d.common.Vec2;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class DistanceTest extends TestbedTest {
+public /*auto*/ strictfp class DistanceTest extends TestbedTest {
 	
 	Vec2 m_positionB;
 	float m_angleB;

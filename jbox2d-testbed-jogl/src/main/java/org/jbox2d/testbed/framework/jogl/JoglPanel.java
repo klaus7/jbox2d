@@ -38,7 +38,7 @@ import org.jbox2d.testbed.framework.TestbedModel;
 import org.jbox2d.testbed.framework.TestbedPanel;
 import org.jbox2d.testbed.framework.j2d.AWTPanelHelper;
 
-public class JoglPanel extends GLJPanel implements TestbedPanel, GLEventListener {
+public /*auto*/ strictfp class JoglPanel extends GLJPanel implements TestbedPanel, GLEventListener {
   private static final long serialVersionUID = 1L;
 
   public static final int SCREEN_DRAG_BUTTON = 3;

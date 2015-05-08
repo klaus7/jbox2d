@@ -10,7 +10,7 @@ import org.jbox2d.particle.ParticleGroupDef;
 import org.jbox2d.particle.ParticleType;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class Particles extends TestbedTest {
+public /*auto*/ strictfp class Particles extends TestbedTest {
   @Override
   public String getTestName() {
     return "Particles";

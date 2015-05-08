@@ -8,7 +8,7 @@ import org.jbox2d.collision.AABB;
 import org.jbox2d.collision.RayCastInput;
 import org.jbox2d.common.Vec2;
 
-public class BroadPhaseJNI implements BroadPhase {
+public /*auto*/ strictfp class BroadPhaseJNI implements BroadPhase {
 
   static {
     NarSystem.loadLibrary();

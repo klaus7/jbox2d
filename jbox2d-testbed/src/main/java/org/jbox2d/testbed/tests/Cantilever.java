@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Cantilever extends TestbedTest {
+public /*auto*/ strictfp class Cantilever extends TestbedTest {
 
   int e_count = 8;
 

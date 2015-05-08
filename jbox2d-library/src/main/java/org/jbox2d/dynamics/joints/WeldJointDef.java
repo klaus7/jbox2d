@@ -35,7 +35,7 @@ import org.jbox2d.dynamics.joints.JointType;
 /**
  * @author Daniel Murphy
  */
-public class WeldJointDef extends JointDef {
+public /*auto*/ strictfp class WeldJointDef extends JointDef {
   /**
    * The local anchor point relative to body1's origin.
    */

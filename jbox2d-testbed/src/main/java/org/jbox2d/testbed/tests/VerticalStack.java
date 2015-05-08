@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class VerticalStack extends TestbedTest {
+public /*auto*/ strictfp class VerticalStack extends TestbedTest {
   private static final long BULLET_TAG = 1;
 
   public static final int e_columnCount = 5;

@@ -62,7 +62,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
  * @author Daniel Murphy
  */
 @SuppressWarnings("serial")
-public class TestbedSidePanel extends JPanel implements ChangeListener, ActionListener {
+public /*auto*/ strictfp class TestbedSidePanel extends JPanel implements ChangeListener, ActionListener {
 
   private static final String SETTING_TAG = "settings";
   private static final String LABEL_TAG = "label";

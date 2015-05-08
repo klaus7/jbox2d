@@ -34,7 +34,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @author Daniel Murphy
  */
-public class FrictionJointDef extends JointDef {
+public /*auto*/ strictfp class FrictionJointDef extends JointDef {
 
 
   /**

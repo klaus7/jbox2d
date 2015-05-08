@@ -25,7 +25,7 @@ package org.jbox2d.tests.math;
 
 import org.jbox2d.common.MathUtils;
 
-public class SinCosTable {
+public /*auto*/ strictfp class SinCosTable {
 	
 	public static final float TWOPI = (float) (Math.PI * 2);
 	

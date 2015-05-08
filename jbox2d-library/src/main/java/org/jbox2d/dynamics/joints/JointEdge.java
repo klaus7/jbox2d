@@ -33,7 +33,7 @@ import org.jbox2d.dynamics.Body;
  * nodes, one for each attached body.
  * @author Daniel
  */
-public class JointEdge {
+public /*auto*/ strictfp class JointEdge {
 	
 	/**
 	 * Provides quick access to the other body attached

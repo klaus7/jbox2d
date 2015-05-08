@@ -29,7 +29,7 @@ package org.jbox2d.dynamics;
  * 
  * @author daniel
  */
-public class Filter {
+public /*auto*/ strictfp class Filter {
 	/**
 	 * The collision category bits. Normally you would just set one bit.
 	 */

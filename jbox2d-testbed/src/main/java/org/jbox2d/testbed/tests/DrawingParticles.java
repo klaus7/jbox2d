@@ -12,7 +12,7 @@ import org.jbox2d.particle.ParticleType;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class DrawingParticles extends TestbedTest {
+public /*auto*/ strictfp class DrawingParticles extends TestbedTest {
 
   ParticleGroup m_lastGroup;
   boolean m_drawing;

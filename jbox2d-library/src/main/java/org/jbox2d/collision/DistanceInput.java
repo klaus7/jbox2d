@@ -32,7 +32,7 @@ import org.jbox2d.common.Transform;
  * in the computation.
  *
  */
-public class DistanceInput {
+public /*auto*/ strictfp class DistanceInput {
 	public DistanceProxy proxyA = new DistanceProxy();
 	public DistanceProxy proxyB = new DistanceProxy();
 	public Transform transformA = new Transform();

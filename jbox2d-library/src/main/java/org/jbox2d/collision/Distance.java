@@ -41,7 +41,7 @@ import org.jbox2d.common.Transform;
  * 
  * @author Daniel Murphy
  */
-public class Distance {
+public /*auto*/ strictfp class Distance {
   public static final int MAX_ITERS = 20;
 
   public static int GJK_CALLS = 0;

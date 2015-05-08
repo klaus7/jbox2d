@@ -8,7 +8,7 @@ import org.jbox2d.dynamics.Body;
  * 
  * @author dmurph
  */
-public class MotorJointDef extends JointDef {
+public /*auto*/ strictfp class MotorJointDef extends JointDef {
   /**
    * Position of bodyB minus the position of bodyA, in bodyA's frame, in meters.
    */

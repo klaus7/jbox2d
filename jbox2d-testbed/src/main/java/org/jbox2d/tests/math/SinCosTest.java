@@ -25,7 +25,7 @@ package org.jbox2d.tests.math;
 
 import org.jbox2d.common.MathUtils;
 
-public class SinCosTest {
+public /*auto*/ strictfp class SinCosTest {
   // formating stuff
   public static final int COLUMN_PADDING = 3;
   public static final int NUM_DECIMALS = 8;

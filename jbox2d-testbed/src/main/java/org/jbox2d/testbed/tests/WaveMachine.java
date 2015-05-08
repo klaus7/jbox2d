@@ -12,7 +12,7 @@ import org.jbox2d.particle.ParticleGroupDef;
 import org.jbox2d.testbed.framework.TestbedSettings;
 import org.jbox2d.testbed.framework.TestbedTest;
 
-public class WaveMachine extends TestbedTest {
+public /*auto*/ strictfp class WaveMachine extends TestbedTest {
 
   RevoluteJoint m_joint;
   float m_time;

@@ -40,7 +40,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class Web extends TestbedTest {
+public /*auto*/ strictfp class Web extends TestbedTest {
 
   Body m_bodies[] = new Body[4];
   Joint m_joints[] = new Joint[8];

@@ -35,7 +35,7 @@ import org.jbox2d.dynamics.Fixture;
  * this class if you want finer control over contact creation.
  * @author Daniel Murphy
  */
-public class ContactFilter {
+public /*auto*/ strictfp class ContactFilter {
 
 	/**
 	 * Return true if contact calculations should be performed between these two shapes.

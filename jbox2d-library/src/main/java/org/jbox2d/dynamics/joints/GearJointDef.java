@@ -32,7 +32,7 @@ package org.jbox2d.dynamics.joints;
  * 
  * @author Daniel Murphy
  */
-public class GearJointDef extends JointDef {
+public /*auto*/ strictfp class GearJointDef extends JointDef {
   /**
    * The first revolute/prismatic joint attached to the gear joint.
    */

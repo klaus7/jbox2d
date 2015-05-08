@@ -44,7 +44,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class CollisionProcessing extends TestbedTest {
+public /*auto*/ strictfp class CollisionProcessing extends TestbedTest {
 
   @Override
   public boolean isSaveLoadEnabled() {

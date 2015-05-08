@@ -34,7 +34,7 @@ import java.util.HashMap;
  * stupid pool and now I'm all hot and bothered.  Also, this pool isn't thread safe!
  * @author Daniel Murphy
  */
-public class ColorPool {
+public /*auto*/ strictfp class ColorPool {
 	
 	private HashMap<ColorKey, Color> colorMap = new HashMap<ColorKey, Color>();
 	

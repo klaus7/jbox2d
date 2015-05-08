@@ -46,7 +46,7 @@ import org.jbox2d.testbed.framework.TestbedTest;
 /**
  * @author Daniel Murphy
  */
-public class DynamicTreeTest extends TestbedTest implements TreeCallback,
+public /*auto*/ strictfp class DynamicTreeTest extends TestbedTest implements TreeCallback,
 		TreeRayCastCallback {
 
 	int e_actorCount = 128;
